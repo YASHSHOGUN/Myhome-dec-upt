@@ -1,0 +1,165 @@
+<header>
+	<h1>Our Previous Projects</h1>
+  </header>
+
+  <section class="projects-section">
+	<div class="project-item">
+	  <div class="project-image-container">
+		<img src="assets/II.jpg" alt="Institutional Interiors">
+	  </div>
+	  <div class="project-info">
+		<h2>Institutional Interiors</h2>
+		<p>Created to enhance user experience, assist institution operations, and reflect institution values and culture.</p>
+		<a href="#" class="btn-more">Find Out More</a>
+	  </div>
+	</div>
+
+	<div class="project-item">
+	  <div class="project-image-container">
+		<img src="assets/MV.jpg" alt="Moinabad Villa">
+	  </div>
+	  <div class="project-info">
+		<h2>Moinabad Villa</h2>
+		<p>Outdoor Living Spaces with warm climates in mind. Villas often feature outdoor living spaces perfect for entertaining.</p>
+		<a href="#" class="btn-more">Find Out More</a>
+	  </div>
+	</div>
+
+	<div class="project-item">
+	  <div class="project-image-container">
+		<img src="assets/FD.jpg" alt="Moinabad Villa">
+	  </div>
+	  <div class="project-info">
+		<h2>Furniture Design</h2>
+		<p>Outdoor Living Spaces with warm climates in mind. Villas often feature outdoor living spaces perfect for entertaining.</p>
+		<a href="#" class="btn-more">Find Out More</a>
+	  </div>
+	</div>
+
+	<!-- Add more projects as needed -->
+  </section>
+  <style>
+	/* General Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Body Styling */
+
+
+/* Header Styling */
+header {
+text-align: center;
+margin-bottom: 50px;
+}
+
+header h1 {
+font-size: 3.5rem;
+font-weight: bold;
+color: #333;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+/* Projects Section Styling */
+.projects-section {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 30px;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* Individual Project Item Styling */
+.project-item {
+width: 100%;
+max-width: 550px;
+background: #fff;
+border-radius: 12px;
+overflow: hidden;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+transform: translateY(-10px);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Image Styling */
+.project-image-container {
+position: relative;
+width: 100%;
+height: 300px;
+overflow: hidden;
+}
+
+.project-image-container img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: transform 0.3s ease;
+}
+
+.project-item:hover .project-image-container img {
+transform: scale(1.1);
+}
+
+/* Project Info Styling */
+.project-info {
+padding: 20px;
+text-align: center;
+}
+
+.project-info h2 {
+font-size: 1.8rem;
+margin-bottom: 15px;
+font-weight: bold;
+color: #222;
+}
+
+.project-info p {
+font-size: 1.1rem;
+color: #555;
+margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn-more {
+padding: 10px 25px;
+font-size: 1rem;
+background: #333;
+color: #fff;
+text-decoration: none;
+border-radius: 30px;
+transition: all 0.3s ease;
+}
+
+.btn-more:hover {
+background: #ff6b6b;
+color: #fff;
+transform: scale(1.05);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+.projects-section {
+flex-direction: column;
+align-items: center;
+}
+
+.project-item {
+max-width: 100%;
+margin-bottom: 30px;
+}
+
+.project-info h2 {
+font-size: 1.6rem;
+}
+}
+
+  </style>
